@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-mainScreen<pogoBot1>",
+            "request": "launch",
+            "mainClass": "pogoBot1.mainScreen",
+            "projectName": "pogoBot1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-testingApache<pogoBot1>",
+            "request": "launch",
+            "mainClass": "pogoBot1.testingApache",
+            "projectName": "pogoBot1"
+        }
+    ]
+}
